@@ -9,7 +9,6 @@ def consolidate_cart(cart)
         attributes[:count] = 1
         result[type] = attributes
       end
-      binding.pry
     end
   end
 
