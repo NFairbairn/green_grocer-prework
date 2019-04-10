@@ -49,3 +49,4 @@ def consolidate_cart(cart)
     total = total * 0.9 if total > 100
     total
   end
+end
