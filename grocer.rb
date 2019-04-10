@@ -26,7 +26,6 @@ coupons.each do |coupon|
     end
       cart[name][:count] -= coupon[:num]
     end
-    binding.pry
   end
   cart
 end
